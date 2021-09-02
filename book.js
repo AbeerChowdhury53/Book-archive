@@ -1,7 +1,7 @@
 
 // function for total search result
 const getTotalResult = () => {
-    const url = `http://openlibrary.org/search.json?q=${getSearchvalue.value}`  // dinamic URL for search
+    const url = `https://openlibrary.org/search.json?q=${getSearchvalue.value}`  // dinamic URL for search
 
     fetch(url)
     .then(res => res.json())
@@ -38,7 +38,7 @@ const getTotalResult = () => {
     const buttn = document.getElementById('button-addon2');
 
     const getvalue = () => {
-    const url = `http://openlibrary.org/search.json?q=${getSearchvalue.value}`  // dinamic URL for Image
+    const url = `https://openlibrary.org/search.json?q=${getSearchvalue.value}`  // dinamic URL for Image
 
     fetch(url)
     .then(res => res.json())
